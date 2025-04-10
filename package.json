@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
+
+
   "keywords": [],
-  "author": "",
+  "author": "Lisnar",
   "license": "ISC",
-  "description": "",
+  "description": "API REST para un blog con publicaciones normales y de video",
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
